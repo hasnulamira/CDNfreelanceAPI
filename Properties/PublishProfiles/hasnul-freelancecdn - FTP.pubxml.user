@@ -7,5 +7,88 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkgj8FCmPqU2yW6hVk7gr/gAAAAACAAAAAAAQZgAAAAEAACAAAAB/Jt8ihhLMQ8NgnYpM99I8DhePYCArSZUHOc/tqtYPrwAAAAAOgAAAAAIAACAAAABCkaLhctlFl/iSnjvoouWabmaDyil6a42do82z9dkLy4AAAADpPr9R6zz1oB9fmuiA0Bgdx9wGBvL/Lr5Ltym+um7HELvw6EQPV0szq3RnIXSmsdk2m3xa1qJe3iljA4sX5ZvFjl/svP/I3xoyZc+q+jCXdi2IAJb9j67yhlvrnQH6Kez7X2HDFcCLyrfnVk9cgz8RTMUIKQaa9HONOq3bl1j9SkAAAABr9ZBs9i9WREv95gkperalcY4jefGprS8vB2jGMNSfyuEksd0rbWQYkJD/LV2oqev5NYVrRjRweDRSwEgaUxTd</EncryptedPassword>
+    <_PublishTargetUrl>ftps://waws-prod-blu-245.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+    <History>True|2023-09-18T15:02:05.3689548Z;False|2023-09-18T22:58:20.3411794+08:00;False|2023-09-18T22:56:08.2420525+08:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>09/18/2023 22:03:17</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>09/18/2023 22:03:17</publishTime>
+    </File>
+    <File Include="CDNAPI.deps.json">
+      <publishTime>09/18/2023 23:00:31</publishTime>
+    </File>
+    <File Include="CDNAPI.dll">
+      <publishTime>09/18/2023 23:00:22</publishTime>
+    </File>
+    <File Include="CDNAPI.exe">
+      <publishTime>09/18/2023 23:00:22</publishTime>
+    </File>
+    <File Include="CDNAPI.pdb">
+      <publishTime>09/18/2023 23:00:22</publishTime>
+    </File>
+    <File Include="CDNAPI.runtimeconfig.json">
+      <publishTime>09/18/2023 22:53:49</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>08/10/2023 00:35:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>08/10/2023 00:35:46</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>08/10/2023 00:35:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>10/19/2022 00:31:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>10/19/2022 00:31:44</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>10/19/2022 00:19:14</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>10/19/2022 00:19:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>10/19/2022 00:19:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>10/19/2022 00:19:52</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>10/19/2022 00:20:18</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>10/19/2022 00:19:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>10/19/2022 00:19:10</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/30/2020 04:14:12</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>01/02/2023 05:32:02</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>01/17/2023 06:50:04</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/11/2023 14:48:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/11/2023 14:48:24</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>01/11/2023 14:49:02</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/18/2023 23:00:31</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

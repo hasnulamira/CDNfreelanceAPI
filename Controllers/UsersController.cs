@@ -331,6 +331,24 @@ namespace CDNAPI.Controllers
                 if (exist == null)
                     return new Err { HasError = true, ErrMsg = "User is not exist" };
 
+                var existSkill = context.Skills.Where(s => s.UserId == ID).ToList();
+                if(existSkill.Count > 0)
+                {
+                    foreach (var item in existSkill)
+                    {
+                        context.Remove(item);
+                    }
+                }
+
+                var existHooby = context.Hobbies.Where(s => s.UserId == ID).ToList();
+                if (existHooby.Count > 0)
+                {
+                    foreach (var item in existHooby)
+                    {
+                        context.Remove(item);
+                    }
+                }
+
                 context.Remove(exist);
 
                 if (await context.SaveChangesAsync() > 0)
